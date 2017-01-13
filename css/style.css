@@ -1,0 +1,39 @@
+body{
+	margin:0;
+	width:100%;
+	background-color:#cbd0d8;
+}
+
+#wrapper{
+	width:960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color:#fff;
+	-webkit-box-shadow: -4px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -4px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -4px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+#myHead, #myFoot{
+	text-align: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	letter-spacing: 1px;
+}
+
+#myHead h1{
+	padding-top: 150px;
+}
+
+#mainSec{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin: 100px 50px 50px 50px;
+}
+
+#sideSec{
+	margin:0 50px 100px 50px;
+}
+
+#myFoot{
+	background-color: #3e7bdd;
+	padding:50px 0 50px 0;
+}
