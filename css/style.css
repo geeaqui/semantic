@@ -4,6 +4,10 @@ body{
 	background-color:#cbd0d8;
 }
 
+a{
+	text-decoration: none;
+}
+
 #wrapper{
 	width:960px;
 	margin-left: auto;
@@ -25,8 +29,20 @@ body{
 }
 
 #mainSec{
+	display:inline-block;
+	width:900px;
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	margin: 100px 50px 50px 50px;
+}
+
+#art1{
+	float:left;
+	width:50%;
+}
+ 
+#art2{
+	float:left;
+	width:50%;
 }
 
 #sideSec{
@@ -36,4 +52,14 @@ body{
 #myFoot{
 	background-color: #3e7bdd;
 	padding:50px 0 50px 0;
+}
+
+#myFoot ul{
+	list-style: none;
+}
+
+#sparta{
+	width:100px;
+	height:100px;
+	margin-top:10px;
 }
